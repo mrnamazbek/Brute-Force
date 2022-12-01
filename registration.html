@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://kit.fontawesome.com/560ca48779.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div   id="inputs" class="sign-box">
+            <h1 id="title">Sign Up</h1>
+            <form id="form">
+                <div id="usernameDiv" class="inputs">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <input id="username" type="text" placeholder="Name">
+                    <div class="error"></div>
+                </div>
+                <div id="emailDiv" class="inputs">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    <input id="email" type="email" placeholder="Email">
+                    <div class="error"></div>
+                </div>
+                <div id="passwordDiv" class="inputs">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="password" type="password" placeholder="Password">
+                    <div class="error"></div>
+                </div>
+                <div id="password2Div" class="inputs">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="password2" type="password" placeholder="Re Enter Password">
+                    <div class="error"></div>
+                </div>
+                <div id="genderDiv" class="inputs">
+                    <i class="fa-solid fa-genderless"></i>
+                    <input id="gender" type="text" placeholder="Male or Female">
+                    <div class="error"></div>
+                </div>
+                <div id="ageDiv" class="inputs">
+                    <i class="fa-regular fa-address-card"></i>
+                    <input id="age" type="number" placeholder="Age">
+                    <div class="error"></div>
+                </div>
+                <div class="section">
+                    <button id="btn" type="submit">
+                        <p id="btnText">Submit</p>
+                        <div class="checked">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+                <p id="p">Lost Password?<a href="#">Click Here</a></p>
+                <div class="btn-field">
+                    <button id="signUp">Sign Up</button>
+                    <button id="signIn">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+
+</html>
