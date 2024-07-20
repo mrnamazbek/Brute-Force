@@ -6,7 +6,7 @@ Blockchain Developer
 
 ---
 
-###Profile Summary
+### Profile Summary
 
 Passionate and skilled Blockchain Developer with hands-on experience in developing decentralized applications and smart contracts using Solidity and Ethereum. Proven ability to create and deploy blockchain-based solutions, with a strong foundation in computer science and software engineering. Currently pursuing a degree in IT (Information Systems) and aiming to leverage my technical skills to contribute to innovative blockchain projects.
 
